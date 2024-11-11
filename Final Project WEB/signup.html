@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign Up - Proger Lab</title>
+  </head>
+  <body class="login-body">
+    <header class="login-header">
+      <h1><a class="home-link" href="index.html">Home</a></h1>
+      <h1>Sign Up</h1>
+    </header>
+
+    <main class="signup-main">
+      <form class="signup-form" id="signup-form" action="server">
+        <input
+          id="email"
+          type="text"
+          class="input-field"
+          name="email"
+          placeholder="Email"
+          autocomplete="on"
+        />
+        <span id="emailError" class="error"></span>
+        <br />
+        <input
+          id="username"
+          type="text"
+          class="input-field"
+          name="username"
+          placeholder="Username"
+          autocomplete="on"
+        />
+        <span id="usernameError" class="error"></span>
+        <br />
+        <input
+          id="password"
+          type="password"
+          class="input-field"
+          name="password"
+          placeholder="Password"
+          autocomplete="off"
+        />
+        <span id="passwordError" class="error"></span>
+        <br />
+        <input
+          id="confirmPassword"
+          type="password"
+          class="input-field"
+          name="confirPassword"
+          placeholder="Confirm Password"
+          autocomplete="off"
+        />
+        <span id="passwordConfirmError" class="error"></span>
+        <br />
+        <br />
+        <button type="submit" class="submit-btn">Sign Up</button>
+      </form>
+    </main>
+
+    <script src="mysripts/signup.js"></script>
+  </body>
+</html>
