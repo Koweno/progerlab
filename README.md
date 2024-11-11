@@ -1,4 +1,4 @@
-# progerlab
+# Progerlab
 
 An interactive web application designed to support students preparing for the Unified National Testing (UNT). ProgerLab provides study resources, practice tests, and strategies to help students succeed in their exams, all within an easy-to-navigate platform.
 
